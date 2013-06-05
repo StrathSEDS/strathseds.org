@@ -1,8 +1,8 @@
 ---
 layout: post
 title: title of your post
-category: Informational # Valid cat's are Informational, tutorials, or meta
-permalink: /blog/year/month/day/title-seperated-by-dashes/
+category: post # Valid cat's are post or project
+#permalink: /blog/year/month/day/title-seperated-by-dashes/
 excerpt: Sample exerpt # Must be provided
 ---
 
