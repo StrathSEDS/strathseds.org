@@ -22,6 +22,7 @@ author_email: strathseds@hotmail.com
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: http://terra.digitalirc.org/~website/
 baseurl: http://terra.digitalirc.org/~website
+projecturl: http://terra.digitalirc.org/~website/project/
 staticurl: http://static.digitalirc.org
 socialiconpath: http://static.digitalirc.org/images/icons/
 
@@ -31,13 +32,6 @@ socialiconpath: http://static.digitalirc.org/images/icons/
 # Google analytics id
 analyticsID: UA-XXXXX
 
-# Page lists
-projects:
-- text: PPT: Plasma Thruster
-  url: /project/PPT/
-- text: StrathSEDS Website
-  url: /project/website/
-  
 #### Under the Hood Stuff #####
 
 # Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
