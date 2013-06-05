@@ -31,6 +31,13 @@ socialiconpath: http://static.digitalirc.org/images/icons/
 # Google analytics id
 analyticsID: UA-XXXXX
 
+# Page lists
+projects:
+- text: PPT: Plasma Thruster
+  url: /project/PPT/
+- text: StrathSEDS Website
+  url: /project/website/
+  
 #### Under the Hood Stuff #####
 
 # Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
