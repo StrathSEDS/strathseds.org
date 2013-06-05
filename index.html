@@ -1,0 +1,27 @@
+---
+layout: default
+title: Home
+weigh: 1
+---
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>DigitalIRC Network</h1>
+        <p class="lead">IRC good as ever.</p>
+        <a class="btn btn-large btn-success" href="{{ site.webchat }}">Get connected today</a>
+      </div>
+
+      <hr>
+
+      <!-- Example row of columns -->
+      <div class="row-fluid">
+      {% for post in site.posts limit: 4  %}
+        <div class="span3">
+          <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+          <p>{{ post.excerpt }}</p>
+          <p><a class="btn" href="{{site.baseurl}}{{post.url}}">View details &#187;</a></p>
+        </div>
+      {% endfor %}
+      </div>
+
+      <hr>
