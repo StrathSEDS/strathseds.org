@@ -28,6 +28,9 @@ socialiconpath: http://static.digitalirc.org/images/icons/
 # Webchat link
 #webchat: http://webchat.digitalirc.org/?randomnick=1&channels=lobby&prompt=1&uio=Nz10cnVl84
 
+# Google analytics id
+analyticsID: UA-XXXXX
+
 # Page lists
 navigation:
 - text: Home
