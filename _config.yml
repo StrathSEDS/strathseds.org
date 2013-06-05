@@ -25,7 +25,7 @@ baseurl: http://terra.digitalirc.org/~website
 projecturl: http://terra.digitalirc.org/~website/project/
 staticurl: http://static.digitalirc.org
 socialiconpath: http://static.digitalirc.org/images/icons/
-
+joinlink: https://docs.google.com/forms/d/1se_VAeEZ0Coy9uWl6fSnfEhbLANFqqCxk_F3Ye6W_CM/viewform?embedded=true
 # Webchat link
 #webchat: http://webchat.digitalirc.org/?randomnick=1&channels=lobby&prompt=1&uio=Nz10cnVl84
 
