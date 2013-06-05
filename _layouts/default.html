@@ -2,7 +2,7 @@
 <!-- saved from url=(0062)http://twitter.github.io/bootstrap/examples/justified-nav.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>DigitalIRC{% if page.title %} | {{ page.title }}{% endif %}</title>
+    <title>{{site.name}}{% if page.title %} | {{ page.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{site.description}}"/>
     <meta name="author" content="{{site.author}}"/>
@@ -111,7 +111,7 @@
     <script type="text/javascript">
     
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-34510951-2']);
+    _gaq.push(['_setAccount', '{{site.analyticsID}}']);
     _gaq.push(['_setDomainName', 'digitalirc.org']);
     _gaq.push(['_trackPageview']);
     
@@ -136,11 +136,11 @@
               <ul class="nav">
                 <li {% if page.url == '/' %}class="active"{% endif %}><a href="{{site.url}}">Home</a></li>
                 <li {% if page.url == '/posts/' %}class="active"{% endif %}><a href="{{site.baseurl}}/posts/">Blog Posts</a></li>
-                <li {% if page.url == '/projects/' %}class="active"{% endif %}><a href="http://code.digitalirc.org/">Projects</a></li>
-                <li {% if page.url == '/services/' %}class="active"{% endif %}><a href="http://www.digitalirc.org/services/">Services</a></li>
+                <li {% if page.url == '/projects/' %}class="active"{% endif %}><a href="{{site.baseurl}}/projects/">Projects</a></li>
+                <!--<li {% if page.url == '/services/' %}class="active"{% endif %}><a href="http://www.digitalirc.org/services/">Services</a></li>
                 <li {% if page.url == '/wiki/' %}class="active"{% endif %}><a href="http://www.digitalirc.org/wiki/">Wiki</a></li>
-                <li {% if page.url == '/stats/' %}class="active"{% endif %}><a href="http://www.digitalirc.org/stats/">Network Stats</a></li>
-                <li {% if page.url == '/ticket/' %}class="active"{% endif %}><a href="{{site.baseurl}}/ticket/">Contact</a></li>
+                <li {% if page.url == '/stats/' %}class="active"{% endif %}><a href="http://www.digitalirc.org/stats/">Network Stats</a></li>-->
+                <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact/">Contact</a></li>
               </ul>
             </div>
           </div>
