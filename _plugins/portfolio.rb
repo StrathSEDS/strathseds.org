@@ -44,7 +44,7 @@ module Jekyll
 
     # Loops through the list of project pages and processes each one.
     def write_portfolio(site)
-      if Dir.exists('_projects')
+      if File.exists?('_projects')
         Dir.chdir('_projects')
         Dir["*.yml"].each do |path|
           name = File.basename(path, '.yml')
