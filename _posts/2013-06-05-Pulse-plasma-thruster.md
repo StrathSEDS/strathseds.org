@@ -4,7 +4,7 @@ title: PPT Stuff
 author: StrathSEDS PPT team
 # category: Informational # Valid cat's are Informational, tutorials, or meta
 permalink: /project/PPT
-excerpt: AWESOME PLASMA POWAHED THINGIE # Must be provided
+excerpt: WERE BUILDING AN AWESOME PLASMA POWAHED THINGIE # Must be provided
 ---
 
 Not far stuff she think the jokes. Going as by do known noise he wrote round leave. Warmly put branch people narrow see. Winding its waiting yet parlors married own feeling. Marry fruit do spite jokes an times. Whether at it unknown warrant herself winding if. Him same none name sake had post love. An busy feel form hand am up help. Parties it brother amongst an fortune of. Twenty behind wicket why age now itself ten. 
