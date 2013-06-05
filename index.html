@@ -12,7 +12,7 @@ weigh: 1
       <hr>
       <!-- Example row of columns -->
       <div class="row-fluid">
-      {% for post in site.posts.category == "post" limit: 4 %}
+      {% for post in site.posts limit: 4 %}
         <div class="span3">
           <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
           <p>{{ post.excerpt }}</p>
