@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title: PPT Stuff
 author: StrathSEDS PPT team
-# category: Informational # Valid cat's are Informational, tutorials, or meta
-permalink: /project/PPT
+#category: Informational # Valid cat's are Informational, tutorials, or meta
+#permalink: /project/PPT
 excerpt: AWESOME PLASMA POWAHED THINGIE # Must be provided
 ---
 
