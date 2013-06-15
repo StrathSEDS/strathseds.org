@@ -1,7 +1,7 @@
 ---
 layout: post
 title: title of your post
-category: post # Valid cat's are post or project
+category: Sample Category
 #permalink: /blog/year/month/day/title-seperated-by-dashes/
 excerpt: Sample exerpt # Must be provided
 ---
