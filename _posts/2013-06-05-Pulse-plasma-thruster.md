@@ -1,8 +1,8 @@
 ---
 layout: post
 title: PPT Stuff
-author: StrathSEDS PPT team
-category: Project # Valid cat's are Informational, tutorials, or meta
+author: StrathSEDS
+category: News # Valid cat's are Informational, tutorials, or meta
 excerpt: WERE BUILDING AN AWESOME PLASMA POWAHED THINGIE # Must be provided
 ---
 
