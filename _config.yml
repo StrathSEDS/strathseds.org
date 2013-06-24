@@ -23,9 +23,9 @@ author_email: strathseds@hotmail.com
 #baseurl: /path/to/blog 
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://terra.digitalirc.org/~website/strathseds/
-baseurl: http://terra.digitalirc.org/~website/strathseds
-projecturl: http://terra.digitalirc.org/~website/strathseds/project/
+url: http://terra.digitalirc.org/~website/strathseds2/
+baseurl: http://terra.digitalirc.org/~website/strathseds2
+projecturl: http://terra.digitalirc.org/~website/strathseds2/projects/
 staticurl: http://static.digitalirc.org
 socialiconpath: http://static.digitalirc.org/images/icons/
 joinlink: https://docs.google.com/forms/d/1se_VAeEZ0Coy9uWl6fSnfEhbLANFqqCxk_F3Ye6W_CM/viewform?embedded=true
