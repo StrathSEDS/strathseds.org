@@ -80,10 +80,7 @@
     </style>
     <link href="{{site.staticurl}}/stylesheets/bootstrap-responsive.css" rel="stylesheet">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="{{site.staticurl}}/javascript/html5shiv.js"></script>
-    <![endif]-->
+    <!--[if lte IE 9]> <script type="text/javascript" src="{{site.baseurl}}/js/fucking-IE.js"></script> <![endif]-->
 
     <!-- Fav and touch icons -->
     <link rel="shortcut icon" href="{{site.staticurl}}/images/favicon.shortcuticon.png" />
@@ -95,7 +92,7 @@
     
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', '{{site.analyticsID}}']);
-    _gaq.push(['_setDomainName', '{{site.root-domain}}']);
+    _gaq.push(['_setDomainName', '{{site.analyticsDomain}}']);
     _gaq.push(['_trackPageview']);
     
     (function() {
