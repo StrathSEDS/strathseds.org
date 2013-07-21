@@ -11,15 +11,15 @@ layout: rss-feed
 	</url>
 {% for post in site.posts %}
 	<url>
-	<loc>{{ site.url }}{{ post.url }}</loc>
+	<loc>{{ site.baseurl }}{{ post.url }}</loc>
 	<description>{{ post.content | xml_escape }}</description>
 	<changefreq>daily</changefreq>
 	<priority>0.5</priority>
 	</url>
 {% endfor %}
-{% for post in site.pages %}
+{% for page in site.pages %}
 	<url>
-	<loc>{{ site.url }}{{ page.url }}</loc>
+	<loc>{{ site.baseurl }}{{ page.url }}</loc>
 	<description>{{ page.content | xml_escape }}</description>
 	<changefreq>weekly</changefreq>
 	<priority>0.8</priority>
