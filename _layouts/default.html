@@ -10,12 +10,10 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-    {% include twitter-meta %}
-    {% include facebook-meta %}
+{% include twitter-meta %}
+{% include facebook-meta %}
     <!-- Le styles -->
     <link href="{{site.staticurl}}/stylesheets/bootstrap.min.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="{{site.staticurl}}/resources/fontello/css/fontello.css">
-    <link rel="stylesheet" href="{{site.staticurl}}/resources/fontello/css/animation.css"> -->
     <style type="text/css">
       body {
         padding-top: 30px;
@@ -81,7 +79,9 @@
     </style>
     <link href="{{site.staticurl}}/stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
 
-    <!--[if lte IE 9]> <script type="text/javascript" src="{{site.baseurl}}/js/fuck-ie.js"></script> <![endif]-->
+    <!--[if lte IE 9]>
+        <script src="{{site.staticurl}}/javascript/fuck-ie.js"></script>
+    <![endif]-->
 
     <!-- Fav and touch icons -->
     <link rel="shortcut icon" href="{{site.staticurl}}/images/favicon.shortcuticon.ico" />
@@ -114,9 +114,6 @@
                 <li {% if page.url == '/' %}class="active"{% endif %}><a href="{{site.url}}">Home</a></li>
                 <li {% if page.url == '/posts/' %}class="active"{% endif %}><a href="{{site.baseurl}}/posts/">Blog Posts</a></li>
                 <li {% if page.url == '/projects/' %}class="active"{% endif %}><a href="{{site.baseurl}}/projects/">Projects</a></li>
-                <!--<li {% if page.url == '/services/' %}class="active"{% endif %}><a href="http://www.digitalirc.org/services/">Services</a></li>
-                <li {% if page.url == '/wiki/' %}class="active"{% endif %}><a href="http://www.digitalirc.org/wiki/">Wiki</a></li>
-                <li {% if page.url == '/stats/' %}class="active"{% endif %}><a href="http://www.digitalirc.org/stats/">Network Stats</a></li>-->
                 <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact/">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
