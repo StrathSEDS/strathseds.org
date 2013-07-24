@@ -1,8 +1,8 @@
 ---
 layout: project
-title: PPT Stuff
+title: Pulsed Plasma Thruster
 author: StrathSEDS PPT team
-excerpt: AWESOME PLASMA POWAHED THINGIE # Must be provided
+excerpt: StrathSEDS Ion Engine project # Must be provided
 ---
 ## Overview
 
