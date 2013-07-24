@@ -1,3 +1,10 @@
 ---
 ---
 ErrorDocument 404 {{site.baseurl}}/404/
+ErrorDocument 500 {{site.staticurl}}/500.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^strathseds.org [NC]
+RewriteRule ^(.*)$ {{site.url}}$1 [L,R=301]
+</IfModule>
