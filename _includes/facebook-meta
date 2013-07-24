@@ -1,0 +1,10 @@
+<meta property="og:url"             content="{{site.baseurl}}{{page.url}}" /> 
+<meta property="og:title"           content="{{page.title}}" /> 
+<meta property="og:image"           content="{{site.staticurl}}/images/strathsedd-logo.jpg" /> 
+<meta property="og:site_name"       content="{{site.name}}">
+<meta property="og:type"            content="blog"/>
+{% if page.exceprt != null %}
+<meta property="og:description" content="{{page.exceprt}}"/>
+{% else %}
+<meta property="og:description" content="{{site.description}}"/>
+{% endif %}
