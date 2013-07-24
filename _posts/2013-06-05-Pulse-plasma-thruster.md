@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PPT Stuff
+title: PPT Project
 author: StrathSEDS
 category: News # Valid cat's are Informational, tutorials, or meta
 excerpt: WERE BUILDING AN AWESOME PLASMA POWAHED THINGIE # Must be provided
