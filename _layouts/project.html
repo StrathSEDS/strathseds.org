@@ -5,6 +5,7 @@ layout: default
 <article>
         <header>
             <h2>{{ page.title }}</h2>
+            {%if page.excerpt%}<p class="small muted">{{page.excerpt}}</p>{%endif%}
             <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
         </header>
         <br />
