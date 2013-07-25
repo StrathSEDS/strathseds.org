@@ -1,15 +1,17 @@
 ---
-layout: portfolio
+layout: page
 title: Projects
 ---
 
     <section>
         <table>
             <tr><td width=33%></td><td></td></tr>
+            {% for project in page.projects %}
             <tr>
-                <td><i class="icon-globe"></i> <a href="{{site.projecturl}}PPT/">Pulsed Plasma Thruster</a></td>
-                <td>High Voltages, Plasma & Fluorine! What could possibly go wrong?</td>
+                <td><i class="icon-globe"></i> <a href="{{page.url}}">{{page.title}}</a></td>
+                <td>{{page.exceprt}}</td>
             </tr>
+            {%endif%}
             <tr>
                 <td><i class="icon-globe"></i> <a href="{{site.projecturl}}REXUS/">REXUS: StrathSat-R</a></td>
                 <td>StrathSEDS presents SAM & FRODO leaving the SHIRE</td>
