@@ -1,7 +1,8 @@
 ---
 layout: project
-title: REXUS: StrathSat-R
-excerpt: SAM & FRODO are leaving the SHIRE
+title: Pulsed Plasma Thruster
+author: StrathSEDS PPT team
+excerpt: StrathSEDS Ion Engine project # Must be provided
 ---
 
 ##REXUS: StrathSat-R
