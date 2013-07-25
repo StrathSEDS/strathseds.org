@@ -1,6 +1,6 @@
 ---
 layout: project
-title: REXUS: SAM
+title: 'REXUS: SAM'
 excerpt: Self-inflating Adaptive Membrane
 ---
 

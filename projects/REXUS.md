@@ -4,8 +4,6 @@ title: 'REXUS: StrathSat-R'
 excerpt: SAM & FRODO are leaving the SHIRE
 ---
 
-##REXUS: StrathSat-R
-
 StrathSEDS presents [SAM][sa] & [FRODO][fr] leaving the [SHIRE][sh], a mission set to launch in March 2013 on the ESA/DLR/SNSB REXUS sounding rocket.
 
 The team has been selected as one of a handful of European university student teams for the [ESA/DLR/SNSB REXUS programme][1].

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: REXUS: Frodo
+title: 'REXUS: Frodo'
 excerpt: Foldable Reflective system for Omnidirectional De-Orbiting
 ---
 

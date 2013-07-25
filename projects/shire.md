@@ -1,6 +1,6 @@
 ---
 layout: project
-title: REXUS: SHIRE
+title: 'REXUS: SHIRE'
 excerpt: Storage Housing In Rocket Experiment
 ---
 ![SHIRE exterior render][shire1]
