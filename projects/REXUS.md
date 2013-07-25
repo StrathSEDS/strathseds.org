@@ -1,6 +1,6 @@
 ---
 layout: project
-title: REXUS\: StrathSat-R
+title: 'REXUS: StrathSat-R'
 excerpt: SAM & FRODO are leaving the SHIRE
 ---
 
