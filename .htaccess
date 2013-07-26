@@ -2,3 +2,7 @@
 ---
 ErrorDocument 404 {{site.baseurl}}/404/
 ErrorDocument 500 {{site.staticurl}}/500.html
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.strathseds.org$ [NC]
+RewriteRule ^(.*)$ http://strathseds.org/$1 [R=301,L]
