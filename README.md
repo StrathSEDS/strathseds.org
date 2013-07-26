@@ -1,7 +1,7 @@
-strathseds.github.io
+strathseds.org
 ====================
 
-This is the test site for StrathSEDS. New layouts and designs are tested here before being deployed on the main site.
+This is the site for StrathSEDS. New layouts and designs are tested here before being deployed on the main site.
 
 It uses [bootstrap](https://github.com/twitter/bootstrap), [jekyll][jk], [ruby][rb], and [liquid](https://github.com/Shopify/liquid/)
 
@@ -59,30 +59,19 @@ This will automatically run all the files in `_site` directory through a HTML5 l
 Credits
 -------
 
-Based off of [Sample Jekyll Site](https://github.com/maciakl/Sample-Jekyll-Site) by [Lukasz Grzegorz Maciak](http://terminally-incoherent.com/)
-
-This site uses plugins created by [Dave Perret][dp] to generate categories and sitemaps. Credit where credit is due. Please see the `_plugins` directory for details.
-
 The web font icons have been created based on the [Typicon][ty] set and customized via the [Fontello][fo] service.
 
 All other content and edits are by StrathSEDS
 
-Screenshots
------------
 
-Just so you can see how it looks:
+Licence
+-------
 
-Front page:  
-  
-![Front Page](http://i.imgur.com/WeXFkWn.jpg) 
-  
-Individual post:
-  
-![Individual post](http://i.imgur.com/o6sSJEt.jpg) 
-  
-Archive page:
-  
-![Archive page](http://i.imgur.com/Fmy6FPt.jpg) 
+The code for the site is licenced as ![CC BY-NC-SA][cc-l]
+StrathSEDS.org by StrathSEDS Web Development Team is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
+Please not that the CONTENT e.g. the project files, images and _posts are NOT licenced as Creative Commons.
+Please contact us via [Strathseds.org/contact] for permissions for these files.
 
 
 [rb]: http://www.ruby-lang.org/
@@ -92,6 +81,7 @@ Archive page:
 [dp]: http://recursive-design.com
 [gr]: http://gruntjs.com
 [no]: http://nodejs.com
-
+[cc-l]: http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
 [ty]: http://typicons.com/
 [fo]: http://fontello.com/
+[ss-c]: http://strathseds.org/contact
