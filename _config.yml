@@ -11,9 +11,9 @@ author: StrathSED
 author_email: strathseds@hotmail.com
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://www.strathseds.org/
-baseurl: http://www.strathseds.org
-projecturl: http://www.strathseds.org/projects/
+url: http://strathseds.org/
+baseurl: http://strathseds.org
+projecturl: http://strathseds.org/projects/
 
 # Static URL's
 staticurl: http://static.strathseds.org
