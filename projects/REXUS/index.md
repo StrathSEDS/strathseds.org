@@ -19,6 +19,6 @@ For more information on the project also see [http://www.strathsat-r.moonfruit.c
 [1]: http://www.rexusbexus.net/index.php?option=com_content&view=article&id=76&Itemid=54
 [2]: https://www.strath.ac.uk/strathseds/microsatellites/strathsat/
 [3]: http://www.strathsat-r.moonfruit.com/
-[sa]: {{site.projecturl}}/REXUS/sam/
-[fr]: {{site.projecturl}}/REXUS/frodo/
-[sh]: {{site.projecturl}}/REXUS/shire/
+[sa]: {{site.projecturl}}REXUS/sam/
+[fr]: {{site.projecturl}}REXUS/frodo/
+[sh]: {{site.projecturl}}REXUS/shire/
