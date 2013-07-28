@@ -68,9 +68,11 @@ Licence
 -------
 
 The code for the site is licenced as ![CC BY-NC-SA][cc-l]
-StrathSEDS.org by StrathSEDS Web Development Team is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
+StrathSEDS.org base code by StrathSEDS Web Development Team is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License][cc-l].
 
 Please not that the CONTENT e.g. the project files, images and _posts are NOT licenced as Creative Commons.
+
 Please contact us via [Strathseds.org/contact] for permissions for these files.
 
 
