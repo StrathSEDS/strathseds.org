@@ -8,7 +8,10 @@ description: Students for the Exploration and Development of Space
 author: StrathSED
 
 # Your email if you want it to be linked on the contact page
-contact_email: strathseds@hotmail.com
+contact_email: support@strathseds.org
+pres_email: president@strathseds.org
+vicepres_email: vicepresident@strathseds.org
+cto_email: cto@strathseds.org
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: http://www.strathseds.org/
@@ -41,4 +44,4 @@ auto: true
 permalink: pretty
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: README.md, package.json, grunt.js, Gruntfile.js, node_modules 
+exclude: README.md, package.json, grunt.js, Gruntfile.js, node_modules, gen.sh 
