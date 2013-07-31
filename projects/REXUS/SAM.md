@@ -1,6 +1,7 @@
 ---
 layout: project
 title: 'REXUS: SAM'
+author: StrathSat-R Team
 excerpt: Self-inflating Adaptive Membrane
 ---
 
