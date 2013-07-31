@@ -2,7 +2,7 @@
 layout: project
 title: Pulsed Plasma Thruster
 author: Neal Stokes & The StrathSEDS PPT team
-excerpt: StrathSEDS' Ion Engine project # Must be provided
+excerpt: StrathSEDS's Electrical Propulsion Project # Must be provided
 ---
 ## Overview
 
