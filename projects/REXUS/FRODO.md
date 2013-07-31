@@ -2,6 +2,7 @@
 layout: project
 title: 'REXUS: Frodo'
 excerpt: Foldable Reflective system for Omnidirectional De-Orbiting
+author: StrathSat-R Team
 ---
 
 FRODO is a technology demonstrator for a passive de-orbiting system for CubeSats. It shall demonstrate a potential method for deploying a large reflective sail using residual air inflation. This is the inflation resulting from the expansion of small pockets of air in the absence of external pressure (ie. the vacuum of space)

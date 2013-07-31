@@ -1,6 +1,7 @@
 ---
 layout: project
 title: 'REXUS: StrathSat-R'
+author: StrathSat-R Team
 excerpt: SAM & FRODO are leaving the SHIRE
 ---
 
@@ -15,6 +16,19 @@ The background behind the FRODO part of the experiment is the first stage of the
 The StrathSat-R team comes from across departments at the University of Strathclyde with postgraduate and undergraduate students working together to complete this exciting project.
 
 For more information on the project also see [http://www.strathsat-r.moonfruit.com/][3].
+
+# Credits
+
+Name|Position
+Ruaridh Clark|Project Manager
+Thomas Parry|Lead Electronics Engineer
+Nathan Donaldson|Lead Mechanical Engineer
+Roy Brown|Electronics & Software Engineer
+Iain Dolan|Assembly & Integration
+Stanislas Bertrand|Software Engineer
+Daniel Yárnoz|Payload Supervisor
+Thomas Sinn|[SAM][sa] Payload Developer
+Chris Lowe|Mechanical Supervisor
 
 [1]: http://www.rexusbexus.net/index.php?option=com_content&view=article&id=76&Itemid=54
 [2]: https://www.strath.ac.uk/strathseds/microsatellites/strathsat/

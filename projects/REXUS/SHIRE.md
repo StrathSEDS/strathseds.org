@@ -1,6 +1,7 @@
 ---
 layout: project
 title: 'REXUS: SHIRE'
+author: StrathSat-R Team
 excerpt: Storage Housing In Rocket Experiment
 ---
 ![SHIRE exterior render][shire1]
