@@ -27,7 +27,7 @@ For more information on the project also see [http://www.strathsat-r.moonfruit.c
 | Roy Brown          | Electronics & Software Engineer |
 | Iain Dolan         | Assembly & Integration          |
 | Stanislas Bertrand | Software Engineer               |
-| Daniel Yárnoz      | Payload Supervisor              |
+| Daniel Y&#225;rnoz      | Payload Supervisor              |
 | Thomas Sinn        | SAM Payload Developer           |
 | Chris Lowe         | Mechanical Supervisor           |
 
