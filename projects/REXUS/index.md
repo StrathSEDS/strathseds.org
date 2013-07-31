@@ -20,7 +20,7 @@ For more information on the project also see [http://www.strathsat-r.moonfruit.c
 # Credits
 
 | Name               | Position                        |
-| ------------------ | ------------------------------- |
+| ------------------ | ------------------------------: |
 | Ruaridh Clark      | Project Manager                 |
 | Thomas Parry       | Lead Electronics Engineer       |
 | Nathan Donaldson   | Lead Mechanical Engineer        |
