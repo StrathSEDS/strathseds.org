@@ -1,6 +1,6 @@
 ---
 layout: post
-title: StrathSat-R team wins Best Team Project at International Astronautical Congress
+title: StrathSat-R team wins at IAC2012
 author: StrathSEDS & StrathSat-R
 category: News # Valid cat's are Informational, tutorials, or meta
 excerpt: StrathSEDS & StrathSat-R Team win at IAC 2012
