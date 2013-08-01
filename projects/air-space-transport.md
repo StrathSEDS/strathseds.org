@@ -15,5 +15,5 @@ One private company that is leading the way is [Reaction Engines Ltd][1]. based 
 Students currently studying aerospace related subjects are doing so at the start of a very exciting period of change within the space industry - tomorrow's spacecraft will be designed and operated using many of the same principles that are used in the creation of modern airliners. This approach will improve both the safety and reliability of future space vehicles, and the challenges that will be encountered in making them a reality will create exciting and cutting-edge opportunities for innovative and dedicated young engineers to make a strong contribution. Involving oneself in groups like StrathSEDS will allow one to explore the industry, and the excellent prospects that this new space age will bring.
 
 [1]: http://www.reactionengines.co.uk/
-[2]: http://www.reactionengines.co.uk/skylon.html
+[2]: http://www.reactionengines.co.uk/space_skylon.html
 [3]: http://www.bis.gov.uk/assets/bispartners/ukspaceagency/docs/skylon-assessment-report-pub.pdf
