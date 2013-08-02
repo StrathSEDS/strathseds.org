@@ -42,6 +42,7 @@ Following features are available:
 
 * Automatically generate a valid RSS feed (see feed.xml in root directory).
 * Automatically generate a valid Google Sitemap (see sitemap.xml in root directory).
+* Automatically generate a .htaccess file with error 404 & 500 support
 
 Linting & Validation
 ---
