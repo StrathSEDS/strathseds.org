@@ -12,6 +12,7 @@ contact_email: support@strathseds.org
 pres_email: president@strathseds.org
 vicepres_email: vicepresident@strathseds.org
 cto_email: cto@strathseds.org
+web_email: webmaster@strathseds.org
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: http://www.strathseds.org/
