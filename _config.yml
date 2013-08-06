@@ -27,16 +27,16 @@ committee:
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: vicepresident@strathseds.org
     position: Vice-president
-  cto:
-    name: Adam McGhie
-    gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: cto@strathseds.org
-    position: Chief Technology Officer
   secretary:
     name: Iain Taylor
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: contact@strathseds.org
     position: Secretary/Treasurer
+  cto:
+    name: Adam McGhie
+    gravatar: 29e309f15dc5748a962f13185d90bf62
+    email: cto@strathseds.org
+    position: Chief Technology Officer
   outreach:
     name: Michael Doroszenko
     gravatar: 29e309f15dc5748a962f13185d90bf62
