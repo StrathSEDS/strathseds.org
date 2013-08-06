@@ -39,69 +39,18 @@ title: Contact Information
             </td></tr>
         </thead>
         <tbody>
+            {% for committee_positions in site.committee_positions %}
+            {% assign committee = site.committee[committee_positions] %}
             <tr><td>
-                <p>President</p>
+                <p>{{committee.position}}</p>
             </td>
             <td>
-                <p>Mark Stewart</p>
+                <p>{{committee.name}}</p>
             </td>
             <td>
-                <p><a href="mailto:{{site.pres_email}}">{{site.pres_email}}</a></p>
+                <p><a href="mailto:{{committee.email}}">{{committee.name}}</a></p>
             </td></tr>
-            
-            <tr><td>
-                <p>Vice President</p>
-            </td><td>
-                <p>Neal Stokes</p>
-            </td>
-            <td>
-                <p><a href="mailto:{{site.vicepres_email}}">{{site.vicepres_email}}</a></p>
-            </td></tr>
-            
-            <tr><td>
-                <p>Secretary & Treasurer</p>
-            </td><td>
-                <p>Iain Taylor</p>
-            </td>
-            <td>
-                <p><a href="mailto:{{site.contact_email}}">{{site.contact_email}}</a></p>
-            </td></tr>
-            
-            <tr><td>
-                <p>Cheif Technology Officer</p>
-            </td><td>
-                <p>Adam McGhie</p>
-            </td>
-            <td>
-                <p><a href="mailto:{{site.cto_email}}">{{site.cto_email}}</a></p>
-            </td></tr>
-            
-            <tr><td>
-                <p>Outreach Coordinator</p>
-            </td><td>
-                <p>Michael Doroszenko</p>
-            </td>
-            <td>
-                <p><a href="mailto:{{site.contact_email}}">{{site.contact_email}}</a></p>
-            </td></tr>
-            
-            <tr><td>
-                <p>Funding Coordinator</p>
-            </td><td>
-                <p>Ruaridh Clark</p>
-            </td>
-            <td>
-                <p><a href="mailto:{{site.contact_email}}">{{site.contact_email}}</a></p>
-            </td></tr>
-            
-            <tr><td>
-                <p>Social Coordinator</p>
-            </td><td>
-                <p>Benjamin Turner</p>
-            </td>
-            <td>
-                <p><a href="mailto:{{site.contact_email}}">{{site.contact_email}}</a></p>
-            </td></tr>
+            {% endfor %}
         </tbody>
     </table>
 </section>
