@@ -8,12 +8,13 @@ title: Home
         <p class="lead">{{site.description}}</p>
         <a class="btn btn-large btn-success" href="{{ site.baseurl }}/signup/">Signup Today</a>
       </div>
-      <hr>
+      <hr class="hidden-phone">
       <!-- Example row of columns -->
       <div class="row-fluid">
       {% for post in site.posts limit: 4 %}
         <div class="span3">
           <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+          <p><i class="icon-user"></i> {{post.author}}</p>
           <p>{{ post.excerpt }}</p>
           <p><a class="btn" href="{{site.baseurl}}{{post.url}}">View details &#187;</a></p>
         </div>
