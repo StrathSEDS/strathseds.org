@@ -42,13 +42,13 @@ title: Contact Information
             {% for committee_positions in site.committee_positions %}
             {% assign committee = site.committee[committee_positions] %}
             <tr><td>
-                <p>{{committee.position}}</p>
+                <p>{{committee}}</p>
             </td>
             <td>
                 <p>{{committee.name}}</p>
             </td>
             <td>
-                <p><a href="mailto:{{committee.email}}">{{committee.name}}</a></p>
+                <p><a href="mailto:{{committee.email}}">{{committee.email}}</a></p>
             </td></tr>
             {% endfor %}
         </tbody>
