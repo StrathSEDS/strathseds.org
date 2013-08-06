@@ -14,6 +14,39 @@ vicepres_email: vicepresident@strathseds.org
 cto_email: cto@strathseds.org
 web_email: webmaster@strathseds.org
 
+# Committee data
+committee_positions: [president, vicepresident, cto, secretary, outreach, funding, social]
+committee:
+  president:
+    name: Mark Stewart
+    gravatar: 29e309f15dc5748a962f13185d90bf62
+    email: president@strathseds.org
+  vicepresident:
+    name: Neal Stokes
+    gravatar: 29e309f15dc5748a962f13185d90bf62
+    email: vicepresident@strathseds.org
+  cto:
+    name: Adam McGhie
+    gravatar: 29e309f15dc5748a962f13185d90bf62
+    email: cto@strathseds.org
+  secretary:
+    name: Iain Taylor
+    gravatar: 29e309f15dc5748a962f13185d90bf62
+    email: contact@strathseds.org
+  outreach:
+    name: Michael Doroszenko
+    gravatar: 29e309f15dc5748a962f13185d90bf62
+    email: contact@strathseds.org
+  funding:
+    name: Ruaridh Clark
+    gravatar: 29e309f15dc5748a962f13185d90bf62
+    email: contact@strathseds.org
+  social:
+    name: Benjamin Turner
+    gravatar: 29e309f15dc5748a962f13185d90bf62
+    email: contact@strathseds.org
+  
+
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: http://www.strathseds.org/
 baseurl: http://www.strathseds.org
