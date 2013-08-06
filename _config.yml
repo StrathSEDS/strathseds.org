@@ -15,7 +15,7 @@ cto_email: cto@strathseds.org
 web_email: webmaster@strathseds.org
 
 # Committee data
-committee_positions: [president, vicepresident, cto, secretary, outreach, funding, social]
+committee_positions: [president, vicepresident, secretary, cto, outreach, funding, social]
 committee:
   president:
     name: Mark Stewart
