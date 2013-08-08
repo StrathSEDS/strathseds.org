@@ -1,0 +1,27 @@
+---
+layout: page
+title: Website Documentation
+author: StrathSEDS Web Team
+---
+<p class="lead text-warning"><strong>NOTICE: Only use if you really, really, know what you’re doing. Messing with this can/will break the website or cause space sharks to spontaneously appear.</strong></p>
+<p class="muted">The website is hosted by geeksoc and in we must have "Hosted by Geeksoc" in the footer</p>
+<h3>Adding content</h3>
+<p>Content is controlled via Github (<a href="https://github.com/StathSEDS/">https://github.com/StathSEDS/</a>) and is auto-generated from the master branch every hour on the hour. Using Jekyll a ruby based website generator<p>
+<p>For development we use gitflow for updating since it keeps a clean development path</p>
+<h3>Layouts</h3>
+<p>Layouts in use, pages & post, They add a title and relevant data (author, date published, etc). They both use “default” for the nav bar, footer and javascript.</p>
+<h3>Posts</h3>
+<p>Posts are in the format “year-month-day-title.md” They are written in github markdown (google for a cheat sheet). All posts must have the following at the start of them</p>
+<code>
+---
+layout: post
+title: Your Posts title
+author: StrathSEDS
+category: news 
+excerpt: A Short description
+---
+</code>
+<p class="text-warning">N.B. You must include the ---’s Since they tell jekyll to use those variables.</p>
+<h3>Projects</h3>
+<p>The projects index page must be manually edited for each new project.</p>
+<p>You can nest projects (see the REXUS project files for example). To do this create a folder you want  the project to be named. inside that folder create an index.html which will be the main page for that project. other files can be added in that folder which will be generated as normal.</p>
