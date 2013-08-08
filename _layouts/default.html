@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -31,9 +30,9 @@
       .wrap {
         margin: 10px auto 0px;
       }
-      .container > hr {
+      /*.container > hr {
         margin: 60px 0;
-      }
+      }*/
 
       /* Main marketing message and sign up button */
       .jumbotron {
@@ -69,11 +68,9 @@
     }
     </style>
     <link href="{{site.staticurl}}/stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
-
     <!--[if lte IE 9]>
         <script src="{{site.staticurl}}/javascript/fuck-ie.js"></script>
     <![endif]-->
-
     <!-- Fav and touch icons -->
     <link rel="shortcut icon" href="{{site.staticurl}}/images/favicon.shortcuticon.ico" />
     <link rel="icon" href="{{site.staticurl}}/images/favicon.icon.ico" type="image/png"/>
@@ -91,8 +88,7 @@
 
     </script>
   </head>
-
-  <body quick-markup_injected="true">
+  <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -114,11 +110,10 @@
       </div>
     </div>
     <div class="container wrap">
-
       {{ content }}
       <hr />
 {% include footer %}
     </div> <!-- /container -->
-
 {% include javascript %}
-</body></html>
+  </body>
+</html>
