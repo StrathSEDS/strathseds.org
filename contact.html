@@ -29,27 +29,31 @@ title: Contact Information
     <p class="lead">StrathSEDS Committee:</p>
     <table class="table table-striped">
         <thead>
-            <tr><td>
-                <p><strong>Position in StrathSEDS</strong></p>
-            </td><td>
-                <p><strong>Name</strong></p>
-            </td>
-            <td>
-                <p><strong>Contact Address</strong></p>
-            </td></tr>
+            <tr>
+                <td>
+                    <p><strong>Position in StrathSEDS</strong></p>
+                </td><td>
+                    <p><strong>Name</strong></p>
+                </td>
+                <td>
+                    <p><strong>Contact Address</strong></p>
+                </td>
+            </tr>
         </thead>
         <tbody>
             {% for committee_positions in site.committee_positions %}
             {% assign committee = site.committee[committee_positions] %}
-            <tr><td>
-                <p>{{committee.position}}</p>
-            </td>
-            <td>
-                <p>{{committee.name}}</p>
-            </td>
-            <td>
-                <p><a href="mailto:{{committee.email}}">{{committee.email}}</a></p>
-            </td></tr>
+            <tr>
+                <td>
+                    <p>{{committee.position}}</p>
+                </td>
+                <td>
+                    <p>{{committee.name}}</p>
+                </td>
+                <td>
+                    <p><a href="mailto:{{committee.email}}">{{committee.email}}</a></p>
+                </td>
+            </tr>
             {% endfor %}
         </tbody>
     </table>
