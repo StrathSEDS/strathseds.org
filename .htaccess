@@ -1,6 +1,6 @@
 ---
 ---
-ErrorDocument 404 {{site.baseurl}}/404/
+ErrorDocument 404 /404/
 ErrorDocument 500 {{site.staticurl}}/500.html
 <IfModule mod_rewrite.c>
 RewriteEngine On
