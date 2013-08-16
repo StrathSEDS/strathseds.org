@@ -7,11 +7,11 @@ description: Students for the Exploration and Development of Space
 # Your name, as you want it to appear underneath each post and in the footer
 author: StrathSED
 
+# Logo image
+logo: https://0.gravatar.com/avatar/29e309f15dc5748a962f13185d90bf62?s=200&d=https%3A%2F%2Fidenticons.github.com%2F7ba55a3e0945b9e8c55fbfcd49348567.png
+
 # Your email if you want it to be linked on the contact page
-contact_email: support@strathseds.org
-pres_email: president@strathseds.org
-vicepres_email: vicepresident@strathseds.org
-cto_email: cto@strathseds.org
+contact_email: contact@strathseds.org
 web_email: webmaster@strathseds.org
 
 # Committee data
