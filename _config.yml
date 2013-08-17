@@ -60,8 +60,8 @@ baseurl: http://www.strathseds.org
 projecturl: http://www.strathseds.org/projects/
 
 # Static URL's
-staticurl: http://static.strathseds.org
-socialiconpath: http://static.strathseds.org/images/icons/
+staticurl: http://static.strathseds.org/dev
+socialiconpath: http://static.strathseds.org/dev/images/icons/
 imageurl: http://static.strathseds.org/images/
 
 # Link to the strathseds google doc
