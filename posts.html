@@ -9,7 +9,7 @@ title: Blog
 
         <header>
             <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
-            <span class="date"><span class="glyphicon glyphicon-table"></span> <time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></span><br/>
+            <span class="date"><span class="glyphicon glyphicon-calendar"></span> <time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></span><br/>
             <span class="category"><span class="glyphicon glyphicon-tag"></span> {{ post.categories | category_links }}</span><br/>
             <span class="author"><span class="glyphicon glyphicon-user"></span> {% if post.author %}{{post.author}}{% else %}{{site.author}}{% endif%}</span>
         </header>
