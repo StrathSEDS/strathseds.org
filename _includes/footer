@@ -1,5 +1,6 @@
-      <div class="footer">
-          <p><span class="text-left">
+    <div id="footer">
+      <div class="container">
+        <p><span class="text-left">
             <a href="http://twitter.com/StrathSEDS"><img src="{{site.socialiconpath}}twitter.png" width="24" height="24"></a>
             <a href="http://github.com/StrathSEDS"><img src="{{site.socialiconpath}}github.png" 
             width="24" height="24"></a>
@@ -8,5 +9,6 @@
             <span class="pull-right">
             &#169; StrathSEDS {{ site.time | date: '%Y' }} &middot; <a href="{{site.baseurl}}/about/">About</a> &middot; <a href="{{site.baseurl}}/terms/">Terms</a><br /><span class="muted">Hosted by <a href="http://geeksoc.org/">GeekSoc</a></span>
             </span>
-            </p>
+        </p>
       </div>
+    </div>
