@@ -7,5 +7,3 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www.strathseds.org$ [NC]
 RewriteRule ^(.*)$ http://www.strathseds.org/$1 [R=301,L]
 </IfModule>
-
-{% include /clubs/strathseds.org/htaccess %}
