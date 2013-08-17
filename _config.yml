@@ -61,8 +61,7 @@ projecturl: http://www.strathseds.org/projects/
 
 # Static URL's
 staticurl: http://static.strathseds.org/dev
-socialiconpath: http://static.strathseds.org/dev/images/icons/
-imageurl: http://static.strathseds.org/images/
+imageurl: http://static.strathseds.org/dev/images/
 
 # Link to the strathseds google doc
 joinlink: https://docs.google.com/forms/d/1se_VAeEZ0Coy9uWl6fSnfEhbLANFqqCxk_F3Ye6W_CM/viewform?embedded=true
