@@ -22,6 +22,6 @@ Part of the challenge for FRODO is the packaging requirements, where it has to f
 Return to [REXUS: StrathSar-R][1]
 
 [1]: {{site.projecturl}}REXUS/
-[frodo1]: https://www.strath.ac.uk/media/faculties/engineering/advancedspaceconceptslab/strathseds/strathsat/FRODO_1_side.jpg
-[frodo2]: https://www.strath.ac.uk/media/faculties/engineering/advancedspaceconceptslab/strathseds/strathsat/FRODO_complete.jpg
-[frodo3]: https://www.strath.ac.uk/media/faculties/engineering/advancedspaceconceptslab/strathseds/strathsat/FRODO_stored.jpg
+[frodo1]: {{site.staticurl}}/images/projects/FRODO_1_side.jpg
+[frodo2]: {{site.staticurl}}/images/projects/FRODO_complete.jpg
+[frodo3]: {{site.staticurl}}/images/projects/FRODO_stored.jpg

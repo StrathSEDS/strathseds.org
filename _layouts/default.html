@@ -19,7 +19,7 @@
     <style type="text/css">
       body {
         padding-top: 30px;
-        padding-bottom: 60px;
+        padding-bottom: 20px;
       }
 
       /* Custom container */
@@ -35,8 +35,9 @@
       }
       /* Main marketing message and sign up button */
       .jumbotron {
-        margin: 80px 0;
+        margin: 20px 0;
         text-align: center;
+        background-color: #fff;
       }
       .jumbotron h1 {
         font-size: 100px;
@@ -66,16 +67,16 @@
       }
     }
     </style>
-    <link href="{{site.staticurl}}/stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="{{site.staticurl}}/stylesheets/bootstrap-glyphicons.css" rel="stylesheet">
     <!--[if lte IE 9]>
         <script src="{{site.staticurl}}/javascript/fuck-ie.js"></script>
     <![endif]-->
     <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="{{site.staticurl}}/images/favicon.shortcuticon.ico" />
-    <link rel="icon" href="{{site.staticurl}}/images/favicon.icon.ico" type="image/png"/>
-    <link rel="apple-touch-icon" href="{{site.staticurl}}/images/favicon.apple.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="{{site.staticurl}}/images/favicon.apple.72.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="{{site.staticurl}}/images/favicon.apple.144.png" />
+    <link rel="shortcut icon" href="{{site.staticurl}}/images/logos/favicon.shortcuticon.ico" />
+    <link rel="icon" href="{{site.staticurl}}/images/logos/favicon.icon.ico" type="image/png"/>
+    <link rel="apple-touch-icon" href="{{site.staticurl}}/images/logos/favicon.apple.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{site.staticurl}}/images/logos/favicon.apple.72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{site.staticurl}}/images/logos/favicon.apple.144.png" />
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -89,24 +90,31 @@
   </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
         <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="{{site.url}}">{{site.name}}</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-                <li {% if page.url == '/' %}class="active"{% endif %}><a href="{{site.url}}">Home</a></li>
-                <li {% if page.url == '/posts/' %}class="active"{% endif %}><a href="{{site.baseurl}}/posts/">Blog Posts</a></li>
-                <li {% if page.url == '/projects/' %}class="active"{% endif %}><a href="{{site.baseurl}}/projects/">Projects</a></li>
-                <li {% if page.url == '/contact/' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact/">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{site.url}}">{{site.name}}</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li{% if page.url == '/' %} class="active"{% endif %}><a href="{{site.url}}">Home</a></li>
+                    <li{% if page.url == '/posts/' %} class="active"{% endif %}><a href="{{site.baseurl}}/posts/">Blog Posts</a></li>
+                    <li{% if page.url == '/projects/' %} class="active"{% endif %}><a href="{{site.baseurl}}/projects/">Projects</a></li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{site.baseurl}}/about/">About</a></li>
+                        <li><a href="{{site.baseurl}}/contact/">Contact Us</a></li>
+                        <li><a href="{{site.baseurl}}/terms/">Terms of Use</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div><!--/.navbar-collapse -->
         </div>
-      </div>
     </div>
     <div class="container wrap">
       {{ content }}

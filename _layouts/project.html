@@ -4,9 +4,10 @@ layout: default
 
 <article>
         <header>
-            <h2>{{ page.title }}</h2>
-            {%if page.excerpt%}<p class="small muted">{{page.excerpt}}</p>{%endif%}
-            <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
+            <div class="page-header">
+                <h1>{{ page.title }}{%if page.excerpt%}<br /><small>{{page.excerpt}}</small>{%endif%}</h1>
+            </div>
+            <span class="author"><p><span class="glyphicon glyphicon-user"></span> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</p></span>
         </header>
         <br />
         <div class="entry">{{ content }}</div><br />

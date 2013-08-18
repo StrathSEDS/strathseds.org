@@ -16,5 +16,5 @@ The unique architecture of the membrane sub-structure opens the possibility of c
 Return to [REXUS: StrathSar-R][1]
 
 [1]: {{site.projecturl}}REXUS/
-[sam1]: https://www.strath.ac.uk/media/faculties/engineering/advancedspaceconceptslab/strathseds/strathsat/SAM_deploy.jpg
-[sam2]: https://www.strath.ac.uk/media/faculties/engineering/advancedspaceconceptslab/strathseds/strathsat/SAM_layout.jpg
+[sam1]: {{site.staticurl}}/images/projects/SAM_deploy.jpg
+[sam2]: {{site.staticurl}}/images/projects/SAM_layout.jpg

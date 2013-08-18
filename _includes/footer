@@ -1,12 +1,12 @@
       <div class="footer">
           <p><span class="text-left">
-            <a href="http://twitter.com/StrathSEDS"><img src="{{site.socialiconpath}}twitter.png" width="24" height="24"></a>
-            <a href="http://github.com/StrathSEDS"><img src="{{site.socialiconpath}}github.png" 
+            <a href="http://twitter.com/StrathSEDS"><img src="{{site.staticurl}}/images/icons/twitter.png" width="24" height="24"></a>
+            <a href="http://github.com/StrathSEDS"><img src="{{site.staticurl}}/images/icons/github.png" 
             width="24" height="24"></a>
-            <a href="https://www.facebook.com/groups/249541428501686/"><img src="{{site.socialiconpath}}facebook.png" width="24" height="24"></a>
+            <a href="https://www.facebook.com/groups/249541428501686/"><img src="{{site.staticurl}}/images/icons/facebook.png" width="24" height="24"></a>
             </span>
             <span class="pull-right">
-            &#169; StrathSEDS {{ site.time | date: '%Y' }} &middot; <a href="{{site.baseurl}}/about/">About</a> &middot; <a href="{{site.baseurl}}/terms/">Terms</a><br /><span class="muted">Hosted by <a href="http://geeksoc.org/">GeekSoc</a></span>
+            &#169; StrathSEDS {{ site.time | date: '%Y' }} &middot; <a href="{{site.baseurl}}/about/">About</a> &middot; <a href="{{site.baseurl}}/terms/">Terms</a><br /><span class="text-muted">Hosted by <a href="http://geeksoc.org/">GeekSoc</a></span>
             </span>
             </p>
       </div>
