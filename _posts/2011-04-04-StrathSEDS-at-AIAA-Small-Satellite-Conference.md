@@ -12,4 +12,4 @@ Charlotte L&uuml;cking will present her work on a passive de-orbiting strategy f
 An explanation of the orbital dynamics of the method and an analysis of its efficiency can be found in the following paper: L&uuml;cking, Charlotte and Colombo, Camilla and Mcinnes, Colin (2011) [A passive de-orbiting strategy for high altitude CubeSat missions using a deployable reflective balloon][AIAA-paper]. In: 8th IAA Symposium on Small Satellites, 2011-04-04 - 2011-04-08, Berlin.
 
 [AIAA-paper]: http://strathprints.strath.ac.uk/41233/
-[AIAA-Poster]: {{site.statisurl}}/images/posts/conference_poster.jpg "AIAA Small Satellites poster"
+[AIAA-Poster]: {{site.staticurl}}/images/posts/conference_poster.jpg "AIAA Small Satellites poster"
