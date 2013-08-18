@@ -60,8 +60,8 @@ baseurl: http://www.strathseds.org
 projecturl: http://www.strathseds.org/projects/
 
 # Static URL's
-staticurl: http://static.strathseds.org/dev
-imageurl: http://static.strathseds.org/dev/images/
+staticurl: http://static.strathseds.org
+imageurl: http://static.strathseds.org/images/
 
 # Link to the strathseds google doc
 joinlink: https://docs.google.com/forms/d/1se_VAeEZ0Coy9uWl6fSnfEhbLANFqqCxk_F3Ye6W_CM/viewform?embedded=true
