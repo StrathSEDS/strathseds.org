@@ -1,12 +1,77 @@
 ---
 layout: page
-title: About
+title: About StrathSEDS
 ---
-<section>
-    <img class="pull-right img-thumbnail hidden-xs" src="{{site.logo}}"/>
-    <p>The Strathclyde Students for the Exploration and Development of Space (StrathSEDS) is an engineering/science-based society for undergraduate and postgraduate students of the University of Strathclyde.
 
-    <p>The society aims to be working on at least one relatively large space engineering project throughout each academic year along while running other, smaller projects for members to get involved in. Formed in 2011, StrathSEDS has since developed the foundations for Scotland’s first university satellite programme (StrathSat-R) which was successfully launched on a sounding rocket by the European Space Agency. We are also in the process of designing, building and testing a Pulsed Plasma Thruster (PPT).
+<ul class="nav nav-tabs" id="about-info">
+    <li class="active"><a href="#about" data-toggle="tab">About</a></li>
+    <li><a href="#contact" data-toggle="tab">Support</a></li>
+    <li><a href="#committee" data-toggle="tab">Committee</a></li>
+    <li><a href="#terms" data-toggle="tab">Terms</a></li>
+</ul>
 
-    <p>StrathSEDS works collaboratively with the university’s research centres such as the Advanced Space Concepts Laboratory, and offers great opportunities for academic projects to be carried out within StrathSEDS.
-</section>
+<div class="tab-content">
+    <div class="tab-pane fade in active" id="about">
+        <section>
+            <img class="pull-right img-thumbnail hidden-xs" src="{{site.logo}}" width="20%"/>
+            <p>The Strathclyde Students for the Exploration and Development of Space (StrathSEDS) is an engineering/science-based society for undergraduate and postgraduate students of the University of Strathclyde.
+            <p>The society aims to be working on at least one relatively large space engineering project throughout each academic year along while running other, smaller projects for members to get involved in. Formed in 2011, StrathSEDS has since developed the foundations for Scotland's first university satellite programme (StrathSat-R) which was successfully launched on a sounding rocket by the European Space Agency. We are also in the process of designing, building and testing a Pulsed Plasma Thruster (PPT).
+            <p>StrathSEDS works collaboratively with the university's research centres such as the Advanced Space Concepts Laboratory, and offers great opportunities for academic projects to be carried out within StrathSEDS.
+        </section>
+    </div>
+    <div class="tab-pane fade" id="contact">
+        <section>
+            <img class="pull-right img-thumbnail hidden-xs" src="{{site.logo}}" width="20%"/>
+            <p class="lead">Join StrathSEDS:</p>
+            <p>For joining StrathSEDS please follow the link bellow</p>
+            <p><i class="icon-users"></i>    <td><a class="btn btn-large btn-success" href="{{site.baseurl}}/signup/">Click Here</a></p>
+        </section>
+        <section>
+            <p class="lead">Contact StrathSEDS</p>
+            <p>For general enquires:</p>
+            <table>
+                <tr><td>
+                    <address>
+                        <p>General Enquires & Support:</td>
+                        <td><a class="btn btn-default" href="mailto:{{site.contact_email}}"><span class="glyphicon glyphicon-envelope"></span> {{site.contact_email}}</a></p>
+                    </address>
+                </td></tr>
+                <tr><td>
+                    <address>
+                        <p>StrathSEDS Website Support:</td>
+                        <td><a class="btn btn-default" href="mailto:{{site.web_email}}"><span class="glyphicon glyphicon-envelope"></span> {{site.web_email}}</a></p>
+                    </address>
+                </td></tr>
+            </table>
+        </section>
+    </div>   
+    <div class="tab-pane fade" id="committee">
+        <section>
+            <p class="lead">StrathSEDS Committee:</p>
+            <ul class="media-list">
+                {% for committee_positions in site.committee_positions %}
+                {% assign committee = site.committee[committee_positions] %}
+                <li class="media">
+                    <img class="pull-left img-thumbnail" src="https://0.gravatar.com/avatar/{{committee.gravatar}}?s=55" alt="{{committee.name}}" />
+                    <div class="media-body">
+                        <h4 class="media-heading">{{committee.position}}</h4>
+                        <p>Name: {{committee.name}}</p>
+                        <p>Email: {{committee.email}}</p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </div>
+    <div class="tab-pane fade" id="terms">
+        <p class="lead">For the site code:</p>
+        <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">StrathSEDS base code</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.strathseds.org" property="cc:attributionName" rel="cc:attributionURL">StrathSEDS</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.strathseds.org/contact/" rel="cc:morePermissions">http://www.strathseds.org/contact/</a>.</p>
+        <p class="lead">For the site content:</p>
+        <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">StrathSEDS content</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.strathseds.org" property="cc:attributionName" rel="cc:attributionURL">StrathSEDS</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.strathseds.org/contact/" rel="cc:morePermissions">http://www.strathseds.org/contact/</a>.</p>
+    </div>
+</div>
+<script>
+  $(function () {
+    $('#about-info a:first').tab('show')
+  })
+</script>
