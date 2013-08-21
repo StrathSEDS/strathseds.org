@@ -93,13 +93,11 @@
     <script src="{{site.staticurl}}/javascript/jquery.cookiecuttr.js"></script>
     <script src="{{site.staticurl}}/javascript/jquery.cookie.js"></script>
     <script>
-    $(document).ready(function () { 
-        $.cookieCuttr( 
-            {
-                cookieAnalyticsMessage: 'We use cookies, just to track visits to our website, we store no personal details. To use the website as intended please...'
-            }
-        );
-    });
+
+    $(document).ready(function () {
+	// activate cookie cutter
+        $.cookieCuttr();
+    });  
     </script>
   </head>
   <body>
