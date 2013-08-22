@@ -71,6 +71,10 @@ title: About StrathSEDS
 </div>
 <script>
   $(function () {
+    $(function(){
+        var hash = window.location.hash;
+        hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+    }
     $('#about-info a:first').tab('show')
   })
 </script>
