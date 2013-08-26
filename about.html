@@ -70,10 +70,21 @@ title: About StrathSEDS
     </div>
 </div>
 <script>
-$(document).ready(function() {
-    if (location.hash !== '') $('a[href="' + location.hash + '"]').tab('show');
-    return $('a[data-toggle="tab"]').on('shown', function(e) {
-      return location.hash = $(e.target).attr('href').substr(1);
-    });
-});
+// cache the id
+var navbox = $('#about-info');
+// activate tab on click
+navbox.find('a').click(function (e) {
+  // prevent the Default behavior
+  e.preventDefault();
+  // set the hash to the address bar
+  window.location.hash = $(this).attr('href');
+  // activate the clicked tab
+  $(this).tab('show');
+})
+
+// if we have a hash in the address bar
+if(window.location.hash){
+  // show right tab on load (read hash from address bar)
+  navbox.find('a[href="'+window.location.hash+'"]').tab('show');
+}
 </script>
