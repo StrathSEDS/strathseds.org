@@ -23,7 +23,7 @@ title: About StrathSEDS
         <section>
             <p class="lead">Join StrathSEDS:</p>
             <p>For joining StrathSEDS please follow the link bellow</p>
-            <p><i class="icon-users"></i>    <td><a class="btn btn-large btn-success" href="{{site.baseurl}}/signup/">Click Here</a></p>
+            <p><span class="glyphicon glyphicon-user"></span> <td><a class="btn btn-large btn-success" href="{{site.baseurl}}/signup/">Click Here</a></p>
         </section>
         <section>
             <p class="lead">Contact StrathSEDS</p>
@@ -55,7 +55,7 @@ title: About StrathSEDS
                     <div class="media-body">
                         <h4 class="media-heading">{{committee.position}}</h4>
                         <p>Name: {{committee.name}}</p>
-                        <p>Email: {{committee.email}}</p>
+                        <p>Email: <a href="mailto:{{committee.email}}">{{committee.email}}</a></p>
                     </div>
                 </li>
                 {% endfor %}
