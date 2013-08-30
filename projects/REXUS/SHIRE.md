@@ -17,6 +17,6 @@ The ejector rail assembly can be shown above with the two experimental modules i
 Return to [REXUS: StrathSar-R][1]
 
 [1]: {{site.projecturl}}REXUS/
-[shire1]: {{site.staticurl}}/images/projects/SHIRE_module_exterior.jpg
-[shire2]: {{site.staticurl}}/images/projects/SHIRE_inner_shire_assembly.jpg
-[shire3]: {{site.staticurl}}/images/projects/SHIRE_drawing.jpg
+[shire1]: {{site.staticurl}}/images/projects/REXUS/SHIRE_module_exterior.jpg
+[shire2]: {{site.staticurl}}/images/projects/REXUS/SHIRE_inner_shire_assembly.jpg
+[shire3]: {{site.staticurl}}/images/projects/REXUS/SHIRE_drawing.jpg
