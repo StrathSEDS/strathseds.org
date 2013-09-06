@@ -19,17 +19,17 @@ For more information on the project also see [http://www.strathsat-r.moonfruit.c
 
 # Credits
 
-| Name               | Position                        |
-| :----------------- | ------------------------------: |
-| Ruaridh Clark      | Project Manager                 |
-| Thomas Parry       | Lead Electronics Engineer       |
-| Nathan Donaldson   | Lead Mechanical Engineer        |
-| Roy Brown          | Electronics & Software Engineer |
-| Iain Dolan         | Assembly & Integration          |
-| Stanislas Bertrand | Software Engineer               |
-| Daniel Y&#225;rnoz | Payload Supervisor              |
-| Thomas Sinn        | SAM Payload Developer           |
-| Chris Lowe         | Mechanical Supervisor           |
+Name | Position
+---- | -------:
+Ruaridh Clark | Project Manager
+Thomas Parry | Lead Electronics Engineer
+Nathan Donaldson | Lead Mechanical Engineer
+Roy Brown | Electronics & Software Engineer
+Iain Dolan | Assembly & Integration
+Stanislas Bertrand | Software Engineer
+Daniel Y&#225;rnoz | Payload Supervisor
+Thomas Sinn | SAM Payload Developer
+Chris Lowe | Mechanical Supervisor
 
 [1]: http://www.rexusbexus.net/index.php?option=com_content&view=article&id=76&Itemid=54
 [2]: https://www.strath.ac.uk/strathseds/microsatellites/strathsat/
