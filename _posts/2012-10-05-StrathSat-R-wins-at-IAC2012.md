@@ -14,4 +14,4 @@ Team member and PhD student Charlotte Lucking also picked up the Gold Medal for 
 
 ![StrathSEDS IAC2012 team][iac2012]
 
-[iac2012]: {{site.staticurl}}images\posts\iac.jpg "Proud winners!"
+[iac2012]: {{site.staticurl}}/images/posts/iac.jpg "Proud winners!"
