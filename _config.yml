@@ -56,12 +56,12 @@ committee:
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 baseurl: http://www.strathseds.org
-url: http://:baseurl/
-projecturl: http://:baseurl/projects/
+url: http://www.strathseds.org/
+projecturl: http://www.strathseds.org/projects/
 
 # Static URL's
-staticurl: http://:baseurl/static
-imageurl: http://:baseurl/static/images/
+staticurl: http://www.strathseds.org/static
+imageurl: http://www.strathseds.org/static/images/
 
 # Link to the strathseds google doc
 joinlink: https://docs.google.com/forms/d/1se_VAeEZ0Coy9uWl6fSnfEhbLANFqqCxk_F3Ye6W_CM/viewform?embedded=true
@@ -69,6 +69,9 @@ joinlink: https://docs.google.com/forms/d/1se_VAeEZ0Coy9uWl6fSnfEhbLANFqqCxk_F3Y
 # Google analytics id
 analyticsID: UA-39702307-1
 analyticsDomain: strathseds.org
+
+# Misc
+future: false
 
 #### Under the Hood Stuff #####
 
