@@ -17,10 +17,14 @@
 	</url>
 {% endfor %}
 {% for page in site.pages %}
+    {% if page.url contains '.htaccess' %}
+    {% elseif page.url contains '.xml' %}
+    {% else %}
 	<url>
 	<loc>{{ site.baseurl }}{{ page.url }}</loc>
 	<changefreq>weekly</changefreq>
 	<priority>0.8</priority>
 	</url>
+    {% endif %}
 {% endfor %}
 </urlset>
