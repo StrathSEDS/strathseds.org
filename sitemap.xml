@@ -19,6 +19,9 @@
 {% for page in site.pages %}
     {% if page.url contains '.htaccess' %}
     {% elsif page.url contains '.xml' %}
+    {% elsif page.url contains '/500/' %}
+    {% elsif page.url contains '/404/' %}
+    {% elsif page.url contains '/freshers/' %}
     {% else %}
 	<url>
 	<loc>{{ site.baseurl }}{{ page.url }}</loc>
