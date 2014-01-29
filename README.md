@@ -45,23 +45,10 @@ Following features are available:
 * Automatically generate a .htaccess file with error 404 & 500 support
 * Automatically generate committee list using a dataset
 
-Linting & Validation
----
-
-You can use [Grunt.js][gr] to automatically validate the HTML in your generated site. First install the dependencies:
-
-    npm install
-
-Then run Grunt:
-
-    grunt
-
-This will automatically run all the files in `_site` directory through a HTML5 linter/validator.
-
 Credits
 -------
 
-The web font icons have been created based on the [Typicon][ty] set and customized via the [Fontello][fo] service.
+Based off of [Bootstrap](http://getbootstrap.org/)
 
 All other content, edits & code are by [StrathSEDS Web team][ss-wt]
 
@@ -80,8 +67,6 @@ Please see the [terms page][ss-c]
 [gr]: http://gruntjs.com
 [no]: http://nodejs.com
 [cc-l]: http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
-[ty]: http://typicons.com/
-[fo]: http://fontello.com/
 [ss-c]: http://strathseds.org/contact
 [ss-c]: http://strathseds.org/terms
 [ss-wt]: http://strathseds.org/projects/website
