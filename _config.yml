@@ -15,43 +15,45 @@ contact_email: contact@strathseds.org
 web_email: webmaster@strathseds.org
 
 # Committee data
-committee_positions: [president, vicepresident, secretary, cto, outreach, funding, social]
+committee_positions: [president, vp1, vp2, treasurer, cto, outreach, social]
 committee:
   president:
     name: Mark Stewart
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: president@strathseds.org
     position: President
-  vicepresident:
-    name: Neal Stokes
+  vp1:
+    name: Ben Turner
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: vicepresident@strathseds.org
     position: Vice-president
-  secretary:
-    name: Iain Taylor
+  vp2:
+    name: Jen Miller
+    gravatar: 29e309f15dc5748a962f13185d90bf62
+    email: vicepresident@strathseds.org
+    position: Vice-president
+  funding:
+    name: Ciara McGrath
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: contact@strathseds.org
-    position: Secretary/Treasurer
+    position: Treasurer
   cto:
     name: Adam McGhie
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: cto@strathseds.org
     position: Chief Technology Officer
   outreach:
-    name: Michael Doroszenko
+    name: Lukaz Zapotoczny
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: contact@strathseds.org
     position: Outreach Coordinator
-  funding:
-    name: Ruaridh Clark
-    gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: contact@strathseds.org
-    position: Funding Coordinator
   social:
-    name: Benjamin Turner
+    name: Ryan Ross
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: contact@strathseds.org
     position: Social Coordinator
+  
+
   
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
