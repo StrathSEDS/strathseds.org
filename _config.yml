@@ -28,14 +28,14 @@ committee:
     email: vicepresident@strathseds.org
     position: Vice-president
   vp2:
-    name: Jen Miller
+    name: Jennifer Miller
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: vicepresident@strathseds.org
     position: Vice-president
   funding:
     name: Ciara McGrath
     gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: contact@strathseds.org
+    email: treasurer@strathseds.org
     position: Treasurer
   cto:
     name: Adam McGhie
