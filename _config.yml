@@ -14,6 +14,9 @@ logo: http://www.strathseds.org/static/images/logos/strathseds-200px.png
 contact_email: contact@strathseds.org
 web_email: webmaster@strathseds.org
 
+# Are we in freshers fair mode?
+fresher: true
+
 # Committee data
 committee_positions: [president, vp1, vp2, treasurer, cto, outreach, social]
 committee:
