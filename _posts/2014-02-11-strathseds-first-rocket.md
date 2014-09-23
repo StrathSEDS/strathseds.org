@@ -3,7 +3,7 @@ layout: post
 title: StrathSEDS launches it's first rocket
 author: Ben Turner & StrathSEDS
 category: News # Valid cat's are Informational, tutorials, or meta
-excerpt: The brave Ben Turner returns from his adventures in the Scottish Highlands
+excerpt: StrathSEDS launches first rocket
 ---
 
 On the 23rd of November Ben Turner braved the mild wind and slightly cold conditions at the Fairlie Moore rocket site to launch the first rocket to be constructed by StrathSEDS.  The launch was run by the Scottish Auronautics and Rocketry Association (SARA) who were kind enough to let us take part in their last launch of the season.  
