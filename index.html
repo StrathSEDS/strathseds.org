@@ -5,11 +5,10 @@ title: Home
       <!-- Jumbotron -->
         <div class="hidden-xs jumbotron">
             <img class="img-responsive" src="{{site.staticurl}}/images/logos/header-logo-new.png">
-            {% site.freshers contains == 'true' %}
+            {% site.freshers == 1 %}
             <a class="btn btn-large btn-success" href="{{ site.baseurl }}/freshers/">Freshers Signups</a>
-            {% else %}
-            <a class="btn btn-large btn-success" href="{{ site.baseurl }}/signup/">Students Signup</a>
             {% endif %}
+            <a class="btn btn-large btn-success" href="{{ site.baseurl }}/signup/">Students Signup</a>
         </div>
         <hr class="hidden-xs">
       <!-- Example row of columns -->

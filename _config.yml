@@ -15,7 +15,7 @@ contact_email: contact@strathseds.org
 web_email: webmaster@strathseds.org
 
 # Are we in freshers fair mode?
-fresher: true
+freshers: 1
 
 # Committee data
 committee_positions: [president, vp, treasurer, cto, outreach, social]
