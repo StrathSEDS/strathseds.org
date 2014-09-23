@@ -18,19 +18,14 @@ web_email: webmaster@strathseds.org
 fresher: true
 
 # Committee data
-committee_positions: [president, vp1, vp2, treasurer, cto, outreach, social]
+committee_positions: [president, vp, treasurer, cto, outreach, social]
 committee:
   president:
-    name: Mark Stewart
+    name: Ben Turner
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: president@strathseds.org
     position: President
-  vp1:
-    name: Ben Turner
-    gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: vicepresident@strathseds.org
-    position: Vice-president
-  vp2:
+  vp:
     name: Jennifer Miller
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: vicepresident@strathseds.org
