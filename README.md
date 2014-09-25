@@ -28,7 +28,7 @@ To use this template:
 
 1. Clone to some directory
 * Modify `_config.yaml` with your name, blog title, description and etc...
-* Tweak `style.css` and HTML files in `_layouts` to personalize
+* Tweak HTML files in `_layouts` to personalize.
 * Create blog entries in `_posts/` - work off the sample posts there
 * Run `jekyll --server` to generate site locally
 * View it by going to `http://localhost:4000` and make sure it looks good
