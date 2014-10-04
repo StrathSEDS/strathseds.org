@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to StrathSEDS
-author: Mark Stewart, StrathSEDS President
+author: Mark Stewart
 category: News # Valid cat's are Informational, tutorials, or meta
 excerpt: A short message from Mark Stewart, StrathSEDS President, to members both old and new.
 ---
