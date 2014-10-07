@@ -18,19 +18,24 @@ web_email: webmaster@strathseds.org
 freshers: 0
 
 # Committee data
-committee_positions: [president, vp, treasurer, cto, outreach, social]
+committee_positions: [president, vp1, vp2, treasurer, cto, outreach, social]
 committee:
   president:
     name: Ben Turner
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: president@strathseds.org
     position: President
-  vp:
+  vp1:
     name: Jennifer Miller
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: vicepresident@strathseds.org
     position: Vice-president
-  funding:
+  vp2:
+    name: Liam Quinn 
+    gravatar: 29e309f15dc5748a962f13185d90bf62
+    email: vicepresident@strathseds.org
+    position: Vice-president
+  treasurer:
     name: Ciara McGrath
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: treasurer@strathseds.org
