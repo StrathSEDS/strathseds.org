@@ -1,6 +1,8 @@
 language: ruby
 rvm:
 - 2.1
+before_install:
+- travis_retry gem install jekyll
 script: jekyll build && .htmlproofer.rb ./_site
 
 # branch whitelist
