@@ -3,6 +3,7 @@ rvm:
 - 2.1
 before_install:
 - travis_retry gem install jekyll
+- travis_retry gem install rdiscount
 script: jekyll build && .htmlproofer.rb ./_site
 
 # branch whitelist
