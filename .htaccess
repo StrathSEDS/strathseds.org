@@ -1,9 +1,18 @@
 ---
 ---
 Options -Indexes
+ErrorDocument 403 /404/
 ErrorDocument 404 /404/
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www.strathseds.org$ [NC]
-RewriteRule ^(.*)$ http://www.strathseds.org/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} !^www.strathseds.org$ [NC]
+#RewriteRule ^(.*)$ https://www.strathseds.org/$1 [R=301,L]
+RewriteCond %{HTTPS} off
+# First rewrite to HTTPS:
+# Don't put www. here. If it is already there it will be included, if not
+# the subsequent rule will catch it.
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Now, rewrite any request to the wrong domain to use www.
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>
