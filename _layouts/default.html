@@ -33,7 +33,11 @@
     <link rel="apple-touch-icon" href="{{site.staticurl}}/images/logos/favicon.apple.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="{{site.staticurl}}/images/logos/favicon.apple.72.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="{{site.staticurl}}/images/logos/favicon.apple.144.png" />
-  </head>
+    {% if site.xmas == 1 %}
+    <!-- Christmas snowstorm -->
+    <script src="{{site.staticurl}}/javascript/snowstorm.js"></script>
+    {% endif %}
+    </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">

@@ -17,6 +17,9 @@ web_email: webmaster@strathseds.org
 # Are we in freshers fair mode?
 freshers: 0
 
+# It's XMAS!
+xmas: 1
+
 # Committee data
 committee_positions: [president, vp1, vp2, treasurer, cto, outreach, social]
 committee:
