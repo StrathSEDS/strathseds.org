@@ -6,7 +6,7 @@ category: News # Valid cat's are Informational, tutorials, or meta
 excerpt: Wow! Such Suspense! Did we claim victory or embrace defeat?
 ---
 
-At long last the winner of the 2014 UKSEDS National Rocketry Championships were announced this last week and to our great joy, our StrathSEDS rocket "Just Launching" siezed the day!
+At long last the winner of the 2014 UKSEDS National Rocketry Championships were announced this last week and to our great joy, our StrathSEDS rocket "Just Testing" siezed the day!
 
 The rocket managed to reach a respectable altitude of 987.6 m after only 14.75 s with a top speed of 272 m/s before gracefully coming to rest a tad over a minute later. It was a great achievement for us and we're looking forward to seeing what's in store for the 2015 competition! After such a succesful attempt this time, we may just have to push the boundaries on the next one...
 
