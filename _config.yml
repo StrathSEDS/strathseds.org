@@ -18,7 +18,7 @@ web_email: webmaster@strathseds.org
 freshers: 0
 
 # It's XMAS!
-xmas: 1
+xmas: 0
 
 # Committee data
 committee_positions: [president, vp1, vp2, treasurer, cto, outreach, social]
