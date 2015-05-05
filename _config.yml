@@ -21,25 +21,25 @@ freshers: 0
 xmas: 0
 
 # Committee data
-committee_positions: [president, vp1, vp2, treasurer, cto, outreach, social]
+committee_positions: [president, vp, secretary, treasurer, cto, outreach, social, comms]
 committee:
   president:
-    name: Ben Turner
+    name: Jennifer Miller
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: president@strathseds.org
     position: President
-  vp1:
-    name: Jennifer Miller
+  vp:
+    name: Neal Stokes
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: vicepresident@strathseds.org
     position: Vice-president
-  vp2:
+  secretary:
     name: Liam Quinn 
     gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: vicepresident@strathseds.org
+    email: secretary@strathseds.org
     position: Vice-president
   treasurer:
-    name: Ciara McGrath
+    name: Ben Turner
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: treasurer@strathseds.org
     position: Treasurer
@@ -49,16 +49,20 @@ committee:
     email: cto@strathseds.org
     position: Chief Technology Officer
   outreach:
-    name: Lukaz Zapotoczny
+    name: Gregor Baird
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: contact@strathseds.org
     position: Outreach Coordinator
   social:
-    name: Ryan Ross
+    name: Ryan Matheson
     gravatar: 29e309f15dc5748a962f13185d90bf62
     email: contact@strathseds.org
     position: Social Coordinator
-  
+  comms:
+    name: Dan O'Brien
+    gravatar: 29e309f15dc5748a962f13185d90bf62
+    email: contact@strathseds.org
+    position: Social Coordinator
 
   
 
