@@ -6,9 +6,6 @@ ErrorDocument 404 /404/
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-# check if we're already using SSL
-RewriteCond %{HTTPS} off
-
 # First rewrite to HTTPS:
 # Don't put www. here. If it is already there it will be included, if not
 # the subsequent rule will catch it.
