@@ -6,6 +6,6 @@
   "devDependencies": {
     "grunt": "~> 1.6.1",
     "grunt-contrib-watch": "~1.1.0",
-    "grunt-html": "~0.3.3"
+    "grunt-html": "~17.1.0"
   }
 }
